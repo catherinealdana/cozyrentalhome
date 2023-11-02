@@ -17,21 +17,13 @@ COZY's landing page is using HTML & CSS.
 | `index.html` | The starter HTML file. You will need to add your solution to this file. |
 | `style.css`  | The starter css file. You will need to add your solution to this file.  |
 
-You're encouraged to spend some time studying the provided files.
+
 
 ### Setup
 
 Use VSCode Live Server to launch the `index.html` page in your browser.
 
-### Tasks
 
-For this assignment, you will be following a mobile-first development approach. To pass this assignment, you must complete the tasks detailed below.
-
-You **should** use flexbox, and **not** floats, to achieve the desired layouts. The `.group`, `.item`, and `.item-double` classes are provided in the CSS file for your convenience, but it is not necessary to use them.
-
-You are **NOT** expected to match the designs pixel by pixel, as long as the required layout is satisfied.
-
-Edit the `index.html` and `style.css` as needed to achieve the following requirements:
 
 #### Navigation
 
@@ -41,16 +33,11 @@ Edit the `index.html` and `style.css` as needed to achieve the following require
 
 - **Single-page navigation**: Modify the navigation links so that clicking on each link will take the user to the corresponding sections on the page, as follows:
 
-| Link clicked | Take the user to the section with `id` of |
-| ------------ | ----------------------------------------- |
-| `Stay`       | `id="stay"`                               |
-| `About`      | `id="about"`                              |
-| `Ideas`      | `id="ideas"`                              |
-| `Host`       | `id="host"`                               |
+
 
 #### HTML form
 
-- In the "Find your perfect vacation rental" section, create a form that contains the following input fields with the specified types:
+- In the "Find your perfect vacation rental" section, a form that contains the following input fields with the specified types:
 
   - `Location`: `text` input type, with a placeholder value of "Search destination"
   - `Arrive`: `date` input type
@@ -68,7 +55,7 @@ Edit the `index.html` and `style.css` as needed to achieve the following require
 - Some CSS styles have already been written for you to help style your form. Add CSS to the form so that
   - the labels (i.e., "Location", "Arrive", "Depart", "Type") and their corresponding form fields are aligned towards the opposite ends of each row
 
-Your final form design should look as follows:
+
 
 ![Search form mobile](./images/cozyappfinder.png)
 
@@ -78,7 +65,7 @@ Your final form design should look as follows:
 
 #### Responsive images
 
-- Write CSS for all images so that the images will match whatever container width they are placed within, and changing the container sizes will update the image sizes appropriately.
+- There is CSS for all images so that the images will match whatever container width they are placed within, and changing the container sizes will update the image sizes appropriately.
 
 #### Media query: Desktop view
 
@@ -86,9 +73,9 @@ Now that your mobile design is looking good, you will need to adapt the design f
 
 - In `style.css`, create a media query for screens that are wider than `480px`.
 
-Within the media query, write CSS to create the following designs for desktop:
+ CSS to create the following designs for desktop:
 
-- The logo and the navigation menu links should be spaced apart from each other, like this:
+- The logo and the navigation menu links is spaced apart from each other, like this:
 
 - The search form input fields and the button should be horizontally aligned, like this:
 
