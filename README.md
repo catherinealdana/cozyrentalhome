@@ -1,6 +1,6 @@
 # COZY Rental home
 
-live here: https://catherinealdana.github.io/Thinkfulbnb_18.9/
+live here: https://catherinealdana.github.io/cozyrentalhome/
 
 ![Website](./images/cpzywebsitemain.png)
 
